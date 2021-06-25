@@ -17,12 +17,12 @@ function init(TOTAL){
 
 	const tlStar = new TimelineMax()
 	
-	// for(let i=1; i<=TOTAL; i++){
-	// 	const percent = (i/TOTAL) * .5
-	// 	tlStar.from(`.star${i}`, .4, {scale:0, ease: Back.easeOut}, percent)
-	// }
+	for(let i=1; i<=TOTAL; i++){
+		const percent = (i/TOTAL) * .5
+		tlStar.from(`.star${i}`, .4, {scale:0, ease: Back.easeOut}, percent)
+	}
 
-	// tl.add(tlStar)
+	tl.add(tlStar)
 	
 	return tl
 }

@@ -22,12 +22,12 @@ function init(TOTAL) {
 
 	var tlStar = new TimelineMax();
 
-	// for(let i=1; i<=TOTAL; i++){
-	// 	const percent = (i/TOTAL) * .5
-	// 	tlStar.from(`.star${i}`, .4, {scale:0, ease: Back.easeOut}, percent)
-	// }
+	for (var i = 1; i <= TOTAL; i++) {
+		var percent = i / TOTAL * .5;
+		tlStar.from(".star" + i, .4, { scale: 0, ease: Back.easeOut }, percent);
+	}
 
-	// tl.add(tlStar)
+	tl.add(tlStar);
 
 	return tl;
 }
