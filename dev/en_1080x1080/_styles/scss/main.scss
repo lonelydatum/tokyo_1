@@ -1,0 +1,42 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+.frame1{
+	opacity: 1;
+}
+#banner{	
+	width: 1080px;
+	height: 1080px;
+}
+
+.star{
+	transform-origin: 50% 50%;
+}
+
+.star.star1{
+	@include pos-scale(-125, -122, .5);
+}
+
+.star.star2{
+	@include pos-scale(657, -122, .5);
+}
+
+.star.star3{
+	@include pos-scale(-125, 251, .5);
+}
+
+.star.star4{
+	@include pos-scale(657, 251, .5);
+}
+
+.star.star5{
+	@include pos-scale(-125, 634, .5);
+}
+
+.star.star6{
+	@include pos-scale(-125, 251, .5);
+}
+
+
+
