@@ -7,34 +7,50 @@ Object.defineProperty(exports, "__esModule", {
 var banner = document.getElementById('banner');
 var size = { w: banner.offsetWidth, h: banner.offsetHeight };
 var read = {
-	t1: 2
+	a: .5,
+	b: 2
+};
+
+var v2 = {
+	a: 0,
+	b: 2
 };
 
 TweenLite.defaultEase = Power2.easeInOut;
 
-function init(TOTAL) {
+function frameEnd(nudge) {
+	var tl = new TimelineMax();
 
+	tl.set(".frame2", { opacity: 1 });
+	tl.from(".bg2", .2, { opacity: 0 });
+
+	tl.from(".phone", .3, { y: "+=200", opacity: 0 }, "+=.3");
+	tl.from(".ill", .3, { scale: 0 });
+
+	tl.from(".t2", .01, { opacity: 0 }, "+=.3");
+	tl.from(".cta1", .01, { opacity: 0 }, "+=2");
+	tl.to(".cta1", .01, { opacity: 0 }, "+=2.5");
+	tl.from(".cta2", .2, { opacity: 0 }, "+=.2");
+
+	return tl;
+}
+
+function init(id) {
+	void 0;
 	TweenLite.defaultEase = Power3.easeOut;
 	var tl = new TimelineMax();
 	tl.set(".frame1", { opacity: 1 });
 	var w = size.w;
 	var h = size.h;
 
-	var tlStar = new TimelineMax();
-
-	// for(let i=1; i<=TOTAL; i++){
-	// 	const percent = (i/TOTAL) * .5
-	// 	tlStar.from(`.star${i}`, .4, {scale:0, ease: Back.easeOut}, percent)
-	// }
-
-	// tl.add(tlStar)
-
 	return tl;
 }
 
 exports.size = size;
+exports.frameEnd = frameEnd;
 exports.init = init;
 exports.read = read;
+exports.v2 = v2;
 
 // export {init}
 
@@ -81,17 +97,15 @@ var _commonJsStrikerJs = require('../../_common/js/striker.js');
 
 function start() {
 
-	var tl = (0, _commonJsCommonJs.init)(6);
+	var tl = (0, _commonJsCommonJs.init)("300x250");
+	// return
 
-	tl.from(".high", .3, { opacity: 0 });
-
-	tl.from(".t1", .3, { opacity: 0 }, "+=.5");
-	tl.to(".t1", .3, { opacity: 0 }, '+=' + _commonJsCommonJs.read.t1);
-	tl.from(".t2", .3, { opacity: 0 });
-
-	tl.from(".cta", .3, { opacity: 0, y: "+=30" }, "+=.5");
-
-	// CustomBounce.create("myBounce", {strength:0.7, squash:3});
+	tl.from(".player2", 1, { x: "+=155" }, 0);
+	(0, _commonJsStrikerJs.player)(.8);
+	tl.from(".ball", .8, { x: "-=110" }, 0);
+	tl.from(".t1a", .15, { x: "-=150", opacity: 0 }, .8);
+	tl.from(".t1b", .01, { opacity: 0 }, '+=' + _commonJsCommonJs.read.a);
+	tl.add((0, _commonJsCommonJs.frameEnd)(), '+=' + _commonJsCommonJs.read.b);
 }
 
 start();

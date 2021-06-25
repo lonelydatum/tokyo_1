@@ -5,7 +5,9 @@ import {player} from '../../_common/js/striker.js'
 function start(){
 	
 
-	const tl = init(6)
+	const tl = init(3)
+
+
 
 	
 	tl.from(".high", .3, {opacity:0})
@@ -14,9 +16,12 @@ function start(){
 	tl.to(".t1", .3, {opacity:0}, `+=${read.t1}`)
 	tl.from(".t2", .3, {opacity:0})
 
-	tl.from(".cta", .3, {opacity:0, y:"+=30"}, "+=.5")
+	tl.add("end", "+=.5")
+	tl.to(".logo", .3, {y:"+=20"}, "end")
+	tl.from(".cta", .3, {opacity:0, y:"+=30"}, "+=0")
+	
 
-// CustomBounce.create("myBounce", {strength:0.7, squash:3});
+
 
 }
 

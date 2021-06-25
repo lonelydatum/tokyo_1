@@ -1,0 +1,27 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+#banner{	
+	width: 728px;
+	height: 90px;
+}
+
+.star{
+	transform-origin: 50% 50%;
+}
+
+.star.star1{
+	@include pos-scale(-28, -17, .5);
+}
+
+.star.star2{
+	@include pos-scale(42, -17, .5);
+}
+
+.star.star3{
+	@include pos-scale(112, -17, .5);
+}
+
