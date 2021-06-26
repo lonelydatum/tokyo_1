@@ -247,6 +247,10 @@ svg.olg_logo polygon.tri {
   transform-origin: 0 80px;
 }
 
+.cta2 {
+  visibility: hidden;
+}
+
 #banner {
   width: 120px;
   height: 600px;

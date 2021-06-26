@@ -247,6 +247,10 @@ svg.olg_logo polygon.tri {
   transform-origin: 0 80px;
 }
 
+.cta2 {
+  visibility: hidden;
+}
+
 #banner {
   width: 320px;
   height: 50px;
@@ -322,6 +326,10 @@ svg.olg_logo polygon.tri {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
+}
+
+#banner:hover .cta2 {
+  opacity: 1 !important;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,8 +31,9 @@ function start(){
 	tl.from(".logo", .3, {opacity:0}, "end")
 	
 	
+	tl.set(".cta2", {visibility:"visible", opacity:0})
 
-
+	
 
 }
 

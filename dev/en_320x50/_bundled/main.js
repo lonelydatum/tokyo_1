@@ -24,7 +24,7 @@ function init(TOTAL) {
 
 	for (var i = 1; i <= TOTAL; i++) {
 		var percent = i / TOTAL * .5;
-		tlStar.from(".star" + i, .4, { scale: 0, ease: Back.easeOut }, percent);
+		tlStar.from(".star" + i, .4, { opacity: 0, scale: 0, ease: Back.easeOut }, percent);
 	}
 
 	tl.add(tlStar);
@@ -67,6 +67,8 @@ function start() {
 	tl.add("end", "+=.5");
 	tl.from(".cta", .3, { opacity: 0 }, "end");
 	tl.from(".logo", .3, { opacity: 0 }, "end");
+
+	tl.set(".cta2", { visibility: "visible", opacity: 0 });
 }
 
 start();
