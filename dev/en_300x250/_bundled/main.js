@@ -90,6 +90,7 @@ function start() {
 	tl.from(".t2", .3, { opacity: 0 });
 
 	tl.from(".cta", .3, { opacity: 0, y: "+=30" }, "+=.5");
+	tl.set(".cta2", { visibility: "visible", opacity: 0 });
 
 	// CustomBounce.create("myBounce", {strength:0.7, squash:3});
 }

@@ -251,6 +251,10 @@ svg.olg_logo polygon.tri {
   visibility: hidden;
 }
 
+#banner:hover .cta2 {
+  opacity: 1 !important;
+}
+
 #banner {
   width: 300px;
   height: 250px;
