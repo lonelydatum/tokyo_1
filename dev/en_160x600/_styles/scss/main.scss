@@ -2,10 +2,12 @@
 
 @import '../../../_common/styles/common.scss';
 
-
+.frame1{
+	// opacity: 1;
+}
 
 #banner{	
-	width: 120px;
+	width: 160px;
 	height: 600px;
 }
 
@@ -14,18 +16,18 @@
 }
 
 .star.star1{
-	@include pos-scale(-28, -18, .5);
+	@include pos-scale(-18, -22, .5);
 }
 
 .star.star2{
-	@include pos-scale(36, -20, .5);
+	@include pos-scale(52, -22, .5);
 }
 
 .star.star3{
-	@include pos-scale(-28, -18, .5);
+	@include pos-scale(-18, 86, .5);
 }
 
 .star.star4{
-	@include pos-scale(36, -17, .5);
+	@include pos-scale(52, 86, .5);
 }
 

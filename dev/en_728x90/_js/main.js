@@ -20,7 +20,7 @@ function start(){
 	tl.add("end", "+=.5")
 	tl.from(".cta", .3, {opacity:0, y:"-=10"}, "end")
 	tl.to(".logo", .3, {y:"+=20"}, "end")
-	
+	tl.set(".cta2", {visibility:"visible", opacity:0})
 	// tl.gotoAndPlay(3)
 
 
