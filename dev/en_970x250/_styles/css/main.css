@@ -255,8 +255,12 @@ svg.olg_logo polygon.tri {
   opacity: 1 !important;
 }
 
+.frame1 {
+  opacity: 1;
+}
+
 #banner {
-  width: 300px;
+  width: 970px;
   height: 250px;
 }
 
@@ -267,9 +271,9 @@ svg.olg_logo polygon.tri {
 }
 
 .star.star1 {
-  -webkit-transform: translate(-32px, -30px) scale(0.5, 0.5);
-  -ms-transform: translate(-32px, -30px) scale(0.5, 0.5);
-  transform: translate(-32px, -30px) scale(0.5, 0.5);
+  -webkit-transform: translate(-71px, -24px) scale(0.5, 0.5);
+  -ms-transform: translate(-71px, -24px) scale(0.5, 0.5);
+  transform: translate(-71px, -24px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -278,9 +282,9 @@ svg.olg_logo polygon.tri {
 }
 
 .star.star2 {
-  -webkit-transform: translate(28px, -30px) scale(0.5, 0.5);
-  -ms-transform: translate(28px, -30px) scale(0.5, 0.5);
-  transform: translate(28px, -30px) scale(0.5, 0.5);
+  -webkit-transform: translate(93px, -24px) scale(0.5, 0.5);
+  -ms-transform: translate(93px, -24px) scale(0.5, 0.5);
+  transform: translate(93px, -24px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -289,9 +293,9 @@ svg.olg_logo polygon.tri {
 }
 
 .star.star3 {
-  -webkit-transform: translate(-32px, 58px) scale(0.5, 0.5);
-  -ms-transform: translate(-32px, 58px) scale(0.5, 0.5);
-  transform: translate(-32px, 58px) scale(0.5, 0.5);
+  -webkit-transform: translate(257px, -24px) scale(0.5, 0.5);
+  -ms-transform: translate(257px, -24px) scale(0.5, 0.5);
+  transform: translate(257px, -24px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -300,9 +304,9 @@ svg.olg_logo polygon.tri {
 }
 
 .star.star4 {
-  -webkit-transform: translate(28px, 58px) scale(0.5, 0.5);
-  -ms-transform: translate(28px, 58px) scale(0.5, 0.5);
-  transform: translate(28px, 58px) scale(0.5, 0.5);
+  -webkit-transform: translate(422px, -24px) scale(0.5, 0.5);
+  -ms-transform: translate(422px, -24px) scale(0.5, 0.5);
+  transform: translate(422px, -24px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -311,9 +315,9 @@ svg.olg_logo polygon.tri {
 }
 
 .star.star5 {
-  -webkit-transform: translate(-32px, 143px) scale(0.5, 0.5);
-  -ms-transform: translate(-32px, 143px) scale(0.5, 0.5);
-  transform: translate(-32px, 143px) scale(0.5, 0.5);
+  -webkit-transform: translate(585px, -24px) scale(0.5, 0.5);
+  -ms-transform: translate(585px, -24px) scale(0.5, 0.5);
+  transform: translate(585px, -24px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -322,9 +326,9 @@ svg.olg_logo polygon.tri {
 }
 
 .star.star6 {
-  -webkit-transform: translate(28px, 143px) scale(0.5, 0.5);
-  -ms-transform: translate(28px, 143px) scale(0.5, 0.5);
-  transform: translate(28px, 143px) scale(0.5, 0.5);
+  -webkit-transform: translate(750px, -24px) scale(0.5, 0.5);
+  -ms-transform: translate(750px, -24px) scale(0.5, 0.5);
+  transform: translate(750px, -24px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
