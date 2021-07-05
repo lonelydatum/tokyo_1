@@ -5,7 +5,7 @@ import {player} from '../../_common/js/striker.js'
 function start(){
 	
 
-	const tl = init(6)
+	const tl = init(8)
 
 	
 	tl.from(".high", .3, {opacity:0})

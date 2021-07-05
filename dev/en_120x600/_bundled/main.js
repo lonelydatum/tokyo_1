@@ -93,7 +93,7 @@ function start() {
 	// tl.to(".logo", .3, {y:"+=20"}, "end")
 	tl.from(".cta", .3, { opacity: 0, y: "+=30" }, "+=0");
 
-	// tl.set(".cta2", {visibility:"visible", opacity:0})
+	tl.set(".cta2", { visibility: "visible", opacity: 0 });
 }
 
 start();

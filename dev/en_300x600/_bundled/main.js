@@ -81,7 +81,7 @@ var _commonJsStrikerJs = require('../../_common/js/striker.js');
 
 function start() {
 
-	var tl = (0, _commonJsCommonJs.init)(6);
+	var tl = (0, _commonJsCommonJs.init)(8);
 
 	tl.from(".high", .3, { opacity: 0 });
 

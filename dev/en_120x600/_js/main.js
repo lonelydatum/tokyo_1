@@ -21,7 +21,7 @@ function start(){
 	tl.from(".cta", .3, {opacity:0, y:"+=30"}, "+=0")
 	
 
-	// tl.set(".cta2", {visibility:"visible", opacity:0})
+	tl.set(".cta2", {visibility:"visible", opacity:0})
 
 }
 
