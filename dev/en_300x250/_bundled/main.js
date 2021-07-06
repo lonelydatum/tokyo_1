@@ -88,6 +88,7 @@ function start() {
 	tl.from(".t1", .3, { opacity: 0 }, "+=.5");
 	tl.to(".t1", .3, { opacity: 0 }, '+=' + _commonJsCommonJs.read.t1);
 	tl.from(".t2", .3, { opacity: 0 });
+	tl.to(".t2", .3, { opacity: 0 }, "+=3.5");
 
 	tl.from(".cta", .3, { opacity: 0, y: "+=30" }, "+=.5");
 	tl.set(".cta2", { visibility: "visible", opacity: 0 });
