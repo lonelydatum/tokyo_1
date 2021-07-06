@@ -93,7 +93,7 @@ function start() {
 	tl.set(".cta2", { visibility: "visible", opacity: 0 });
 }
 
-start();
+// start()
 
 module.exports = {};
 
