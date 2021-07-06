@@ -16,37 +16,37 @@
 }
 
 .star.star1{
-	@include pos-scale(-36, -19, .5);
+	@include pos-scale(-36, -31, .5);
 }
 
 .star.star2{
-	@include pos-scale(42, -19, .5);
+	@include pos-scale(42, -31, .5);
 }
 
 .star.star3{
-	@include pos-scale(118, -19, .5);
+	@include pos-scale(118, -31, .5);
 }
 
 .star.star4{
-	@include pos-scale(195, -19, .5);
+	@include pos-scale(195, -31, .5);
 }
 
 
 
 .star.star5{
-	@include pos-scale(-36, 71, .5);
+	@include pos-scale(-36, 76, .5);
 }
 
 .star.star6{
-	@include pos-scale(42, 71, .5);
+	@include pos-scale(42, 76, .5);
 }
 
 .star.star7{
-	@include pos-scale(118, 71, .5);
+	@include pos-scale(118, 76, .5);
 }
 
 .star.star8{
-	@include pos-scale(195, 71, .5);
+	@include pos-scale(195, 76, .5);
 }
 
 
