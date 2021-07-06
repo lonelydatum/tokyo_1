@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Created: Jul 6, 2:45</title>
+<title>Created: Jul 6, 2:46</title>
 <style>#banner{opacity: 0;}</style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="ad.size" content="width=300, height=600">
@@ -14,7 +14,7 @@
 <div id="banner" onclick="window.open(window.clickTag)">
 <div class="outline"></div>
 <div class="frame frame1">
-<img src="f1.png" class="retina">
+
 <img src="star.png" class="retina star star1">
 <img src="star.png" class="retina star star2">
 <img src="star.png" class="retina star star3">
@@ -32,6 +32,6 @@
 </div>
 </div>
 <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_2.1.2_min.js"></script>
-<script>!function e(r,t,n){function o(s,i){if(!t[s]){if(!r[s]){var u="function"==typeof require&&require;if(!i&&u)return u(s,!0);if(a)return a(s,!0);var c=new Error("Cannot find module '"+s+"'");throw c.code="MODULE_NOT_FOUND",c}var f=t[s]={exports:{}};r[s][0].call(f.exports,function(e){var t=r[s][1][e];return o(t?t:e)},f,f.exports,e,r,t,n)}return t[s].exports}for(var a="function"==typeof require&&require,s=0;s<n.length;s++)o(n[s]);return o}({1:[function(e,r,t){"use strict";function n(e){TweenLite.defaultEase=Power3.easeOut;var r=new TimelineMax;r.set(".frame1",{opacity:1});for(var t=(a.w,a.h,new TimelineMax),n=1;e>=n;n++){var o=n/e*.5;t.from(".star"+n,.4,{opacity:0,scale:0,ease:Back.easeOut},o)}return r.add(t),r}Object.defineProperty(t,"__esModule",{value:!0});var o=document.getElementById("banner"),a={w:o.offsetWidth,h:o.offsetHeight},s={t1:2};TweenLite.defaultEase=Power2.easeInOut,t.size=a,t.init=n,t.read=s},{}],2:[function(e,r,t){"use strict";function n(){var e=arguments.length<=0||void 0===arguments[0]?1:arguments[0],r=new TimelineMax;r.add("start",0);for(var t=4,n=1;t>=n;n++){var a=n/t*.17,s={x:0,y:0,ease:Power4.easeOut};n!==t&&(s=o({},s,{opacity:0})),r.to("#player"+n,.8*e,s,"start+="+a)}return TweenLite.to(".ball",1.2*e,{x:0,y:0,ease:Power4.easeOut,delay:.17}),r}Object.defineProperty(t,"__esModule",{value:!0});var o=Object.assign||function(e){for(var r=1;r<arguments.length;r++){var t=arguments[r];for(var n in t)Object.prototype.hasOwnProperty.call(t,n)&&(e[n]=t[n])}return e};t.player=n},{}],3:[function(e,r,t){"use strict";e("../../_common/js/common.js"),e("../../_common/js/striker.js");r.exports={}},{"../../_common/js/common.js":1,"../../_common/js/striker.js":2}]},{},[3]);</script>
+<script>!function e(t,r,o){function a(i,s){if(!r[i]){if(!t[i]){var u="function"==typeof require&&require;if(!s&&u)return u(i,!0);if(n)return n(i,!0);var c=new Error("Cannot find module '"+i+"'");throw c.code="MODULE_NOT_FOUND",c}var f=r[i]={exports:{}};t[i][0].call(f.exports,function(e){var r=t[i][1][e];return a(r?r:e)},f,f.exports,e,t,r,o)}return r[i].exports}for(var n="function"==typeof require&&require,i=0;i<o.length;i++)a(o[i]);return a}({1:[function(e,t,r){"use strict";function o(e){TweenLite.defaultEase=Power3.easeOut;var t=new TimelineMax;t.set(".frame1",{opacity:1});for(var r=(n.w,n.h,new TimelineMax),o=1;e>=o;o++){var a=o/e*.5;r.from(".star"+o,.4,{opacity:0,scale:0,ease:Back.easeOut},a)}return t.add(r),t}Object.defineProperty(r,"__esModule",{value:!0});var a=document.getElementById("banner"),n={w:a.offsetWidth,h:a.offsetHeight},i={t1:2};TweenLite.defaultEase=Power2.easeInOut,r.size=n,r.init=o,r.read=i},{}],2:[function(e,t,r){"use strict";function o(){var e=arguments.length<=0||void 0===arguments[0]?1:arguments[0],t=new TimelineMax;t.add("start",0);for(var r=4,o=1;r>=o;o++){var n=o/r*.17,i={x:0,y:0,ease:Power4.easeOut};o!==r&&(i=a({},i,{opacity:0})),t.to("#player"+o,.8*e,i,"start+="+n)}return TweenLite.to(".ball",1.2*e,{x:0,y:0,ease:Power4.easeOut,delay:.17}),t}Object.defineProperty(r,"__esModule",{value:!0});var a=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var o in r)Object.prototype.hasOwnProperty.call(r,o)&&(e[o]=r[o])}return e};r.player=o},{}],3:[function(e,t,r){"use strict";function o(){var e=a.init(8);e.from(".high",.3,{opacity:0}),e.from(".t1",.3,{opacity:0},"+=.5"),e.to(".t1",.3,{opacity:0},"+="+a.read.t1),e.from(".t2",.3,{opacity:0}),e.from(".cta",.3,{opacity:0,y:"+=30"},"+=.5"),e.set(".cta2",{visibility:"visible",opacity:0})}var a=e("../../_common/js/common.js");e("../../_common/js/striker.js");o(),t.exports={}},{"../../_common/js/common.js":1,"../../_common/js/striker.js":2}]},{},[3]);</script>
 </body>
 </html>
