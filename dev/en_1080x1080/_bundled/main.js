@@ -7,7 +7,8 @@ Object.defineProperty(exports, "__esModule", {
 var banner = document.getElementById('banner');
 var size = { w: banner.offsetWidth, h: banner.offsetHeight };
 var read = {
-	t1: 2
+	t1: 2,
+	t2: 3.3
 };
 
 TweenLite.defaultEase = Power2.easeInOut;

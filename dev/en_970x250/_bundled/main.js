@@ -7,7 +7,8 @@ Object.defineProperty(exports, "__esModule", {
 var banner = document.getElementById('banner');
 var size = { w: banner.offsetWidth, h: banner.offsetHeight };
 var read = {
-	t1: 2
+	t1: 2,
+	t2: 3.3
 };
 
 TweenLite.defaultEase = Power2.easeInOut;
@@ -50,22 +51,22 @@ function start() {
 
 	var tlStar = new TimelineMax();
 
-	for (var i = 1; i <= TOTAL; i++) {
-		var percent = i / TOTAL * .2;
-		tlStar.to(".star" + i, .4, { scale: 0, ease: Power3.easeOut }, percent);
-	}
+	// for(let i=1; i<=TOTAL; i++){
+	// 	const percent = (i/TOTAL) * .2
+	// 	tlStar.to(`.star${i}`, .4, {scale:0, ease: Power3.easeOut}, percent)
+	// }
 
-	tl.add(tlStar);
+	// tl.add(tlStar)
 
-	tl.from(".high", .3, { opacity: 0 });
+	tl.from(".high", .3, { opacity: 0 }, "-=.6");
 
-	tl.from(".t1", .3, { opacity: 0 }, "+=.5");
+	tl.from(".t1", .3, { opacity: 0 }, "+=0");
 	tl.to(".t1", .3, { opacity: 0 }, "+=" + _commonJsCommonJs.read.t1);
 	tl.from(".t2", .3, { opacity: 0 });
-	tl.to(".t2", .3, { opacity: 0 }, "+=2");
+	tl.to([".high", ".t2"], .3, { opacity: 0 }, "+=" + _commonJsCommonJs.read.t2);
 
-	tl.add("end", "+=.5");
-	tl.from(".cta", .3, { opacity: 0 }, "end");
+	tl.add("end", "+=.1");
+	tl.from(".cta", .3, { opacity: 0 }, "end+=.5");
 	tl.from(".logo", .3, { opacity: 0 }, "end");
 
 	tl.set(".cta2", { visibility: "visible", opacity: 0 });

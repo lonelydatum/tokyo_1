@@ -13,27 +13,27 @@
 }
 
 .star.star1{
-	@include pos-scale(-29, -31, .5);
+	@include pos-scale(-30, -31, .5);
 }
 
 .star.star2{
-	@include pos-scale(37, -31, .5);
+	@include pos-scale(35, -31, .5);
 }
 
 .star.star3{
-	@include pos-scale(-29, 67, .5);
+	@include pos-scale(-30, 65, .5);
 }
 
 .star.star4{
-	@include pos-scale(37, 67, .5);
+	@include pos-scale(35, 65, .5);
 }
 
 .star.star5{
-	@include pos-scale(-29, 157, .5);
+	@include pos-scale(-30, 160, .5);
 }
 
 .star.star6{
-	@include pos-scale(37, 157, .5);
+	@include pos-scale(35, 160, .5);
 }
 
 

@@ -1,7 +1,8 @@
 const banner = document.getElementById('banner')
 const size = {w:banner.offsetWidth, h:banner.offsetHeight}
 const read = {
-	t1:2
+	t1:2,
+	t2:3.3
 }
 
 TweenLite.defaultEase = Power2.easeInOut

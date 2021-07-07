@@ -266,10 +266,10 @@ svg.olg_logo polygon.tri {
   transform-origin: 50% 50%;
 }
 
-.star.star1 {
-  -webkit-transform: translate(-71px, -24px) scale(0.5, 0.5);
-  -ms-transform: translate(-71px, -24px) scale(0.5, 0.5);
-  transform: translate(-71px, -24px) scale(0.5, 0.5);
+.star.star1a {
+  -webkit-transform: translate(-48px, -46px) scale(0.5, 0.5);
+  -ms-transform: translate(-48px, -46px) scale(0.5, 0.5);
+  transform: translate(-48px, -46px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -277,10 +277,10 @@ svg.olg_logo polygon.tri {
   position: absolute;
 }
 
-.star.star2 {
-  -webkit-transform: translate(93px, -24px) scale(0.5, 0.5);
-  -ms-transform: translate(93px, -24px) scale(0.5, 0.5);
-  transform: translate(93px, -24px) scale(0.5, 0.5);
+.star.star2a {
+  -webkit-transform: translate(58px, -46px) scale(0.5, 0.5);
+  -ms-transform: translate(58px, -46px) scale(0.5, 0.5);
+  transform: translate(58px, -46px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -288,10 +288,10 @@ svg.olg_logo polygon.tri {
   position: absolute;
 }
 
-.star.star3 {
-  -webkit-transform: translate(257px, -24px) scale(0.5, 0.5);
-  -ms-transform: translate(257px, -24px) scale(0.5, 0.5);
-  transform: translate(257px, -24px) scale(0.5, 0.5);
+.star.star3a {
+  -webkit-transform: translate(165px, -46px) scale(0.5, 0.5);
+  -ms-transform: translate(165px, -46px) scale(0.5, 0.5);
+  transform: translate(165px, -46px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -299,10 +299,10 @@ svg.olg_logo polygon.tri {
   position: absolute;
 }
 
-.star.star4 {
-  -webkit-transform: translate(422px, -24px) scale(0.5, 0.5);
-  -ms-transform: translate(422px, -24px) scale(0.5, 0.5);
-  transform: translate(422px, -24px) scale(0.5, 0.5);
+.star.star4a {
+  -webkit-transform: translate(609px, -46px) scale(0.5, 0.5);
+  -ms-transform: translate(609px, -46px) scale(0.5, 0.5);
+  transform: translate(609px, -46px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -310,10 +310,10 @@ svg.olg_logo polygon.tri {
   position: absolute;
 }
 
-.star.star5 {
-  -webkit-transform: translate(585px, -24px) scale(0.5, 0.5);
-  -ms-transform: translate(585px, -24px) scale(0.5, 0.5);
-  transform: translate(585px, -24px) scale(0.5, 0.5);
+.star.star5a {
+  -webkit-transform: translate(716px, -46px) scale(0.5, 0.5);
+  -ms-transform: translate(716px, -46px) scale(0.5, 0.5);
+  transform: translate(716px, -46px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -321,10 +321,76 @@ svg.olg_logo polygon.tri {
   position: absolute;
 }
 
-.star.star6 {
-  -webkit-transform: translate(750px, -24px) scale(0.5, 0.5);
-  -ms-transform: translate(750px, -24px) scale(0.5, 0.5);
-  transform: translate(750px, -24px) scale(0.5, 0.5);
+.star.star6a {
+  -webkit-transform: translate(825px, -46px) scale(0.5, 0.5);
+  -ms-transform: translate(825px, -46px) scale(0.5, 0.5);
+  transform: translate(825px, -46px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.star.star1b {
+  -webkit-transform: translate(-48px, 102px) scale(0.5, 0.5);
+  -ms-transform: translate(-48px, 102px) scale(0.5, 0.5);
+  transform: translate(-48px, 102px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.star.star2b {
+  -webkit-transform: translate(58px, 102px) scale(0.5, 0.5);
+  -ms-transform: translate(58px, 102px) scale(0.5, 0.5);
+  transform: translate(58px, 102px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.star.star3b {
+  -webkit-transform: translate(165px, 102px) scale(0.5, 0.5);
+  -ms-transform: translate(165px, 102px) scale(0.5, 0.5);
+  transform: translate(165px, 102px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.star.star4b {
+  -webkit-transform: translate(609px, 102px) scale(0.5, 0.5);
+  -ms-transform: translate(609px, 102px) scale(0.5, 0.5);
+  transform: translate(609px, 102px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.star.star5b {
+  -webkit-transform: translate(716px, 102px) scale(0.5, 0.5);
+  -ms-transform: translate(716px, 102px) scale(0.5, 0.5);
+  transform: translate(716px, 102px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.star.star6b {
+  -webkit-transform: translate(825px, 102px) scale(0.5, 0.5);
+  -ms-transform: translate(825px, 102px) scale(0.5, 0.5);
+  transform: translate(825px, 102px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

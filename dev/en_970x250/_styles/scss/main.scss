@@ -15,27 +15,52 @@
 	transform-origin: 50% 50%;
 }
 
-.star.star1{
-	@include pos-scale(-71, -24, .5);
+.star.star1a{
+	@include pos-scale(-48, -46, .5);
 }
 
-.star.star2{
-	@include pos-scale(93, -24, .5);
+.star.star2a{
+	@include pos-scale(58, -46, .5);
 }
 
-.star.star3{
-	@include pos-scale(257, -24, .5);
+.star.star3a{
+	@include pos-scale(165, -46, .5);
 }
 
-.star.star4{
-	@include pos-scale(422, -24, .5);
+.star.star4a{
+	@include pos-scale(609, -46, .5);
 }
 
-.star.star5{
-	@include pos-scale(585, -24, .5);
+.star.star5a{
+	@include pos-scale(716, -46, .5);
 }
 
-.star.star6{
-	@include pos-scale(750, -24, .5);
+.star.star6a{
+	@include pos-scale(825, -46, .5);
+}
+
+
+.star.star1b{
+	@include pos-scale(-48, 102, .5);
+}
+
+.star.star2b{
+	@include pos-scale(58, 102, .5);
+}
+
+.star.star3b{
+	@include pos-scale(165, 102, .5);
+}
+
+.star.star4b{
+	@include pos-scale(609, 102, .5);
+}
+
+.star.star5b{
+	@include pos-scale(716, 102, .5);
+}
+
+.star.star6b{
+	@include pos-scale(825, 102, .5);
 }
 
